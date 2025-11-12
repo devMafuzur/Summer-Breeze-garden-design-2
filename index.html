@@ -1,0 +1,589 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="https://static.readdy.ai/static/e.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summer Breeze Garden Design - Premium Landscape Architecture</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#6B7A5A',
+secondary: '#8B9A7A'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before {
+content: "\f3c2";
+}
+.font-playfair {
+font-family: 'Playfair Display', serif;
+}
+.font-work {
+font-family: 'Work Sans', sans-serif;
+}
+.hero-bg {
+background-image: url('https://readdy.ai/api/search-image?query=elegant%20modern%20garden%20landscape%20with%20natural%20stone%20pathways%20lush%20green%20plantings%20architectural%20elements%20soft%20natural%20lighting%20premium%20residential%20outdoor%20space%20minimal%20contemporary%20design%20sophisticated%20landscaping%20with%20clean%20lines%20and%20organic%20forms%20peaceful%20atmosphere%20high%20end%20garden%20design&width=1920&height=800&seq=hero1&orientation=landscape');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.overlay {
+background: linear-gradient(135deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 100%);
+}
+.hover-lift {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+transform: translateY(-4px);
+box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+.project-overlay {
+background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, transparent 60%);
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+.project-item:hover .project-overlay {
+opacity: 1;
+}
+.nav-link {
+position: relative;
+transition: color 0.3s ease;
+}
+.nav-link::after {
+content: '';
+position: absolute;
+width: 0;
+height: 2px;
+bottom: -4px;
+left: 50%;
+background-color: #6B7A5A;
+transition: all 0.3s ease;
+transform: translateX(-50%);
+}
+.nav-link:hover::after {
+width: 100%;
+}
+.btn-primary {
+background: linear-gradient(135deg, #6B7A5A 0%, #8B9A7A 100%);
+transition: all 0.3s ease;
+}
+.btn-primary:hover {
+transform: translateY(-2px);
+box-shadow: 0 10px 30px rgba(107, 122, 90, 0.3);
+}
+.section-divider {
+background: linear-gradient(90deg, transparent 0%, #E5E7EB 50%, transparent 100%);
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translateY(30px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes fadeInLeft {
+from {
+opacity: 0;
+transform: translateX(-30px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+@keyframes fadeInRight {
+from {
+opacity: 0;
+transform: translateX(30px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+/* Animation Classes */
+.fade-in-up {
+opacity: 0;
+animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.fade-in-left {
+opacity: 0;
+animation: fadeInLeft 0.8s ease-out forwards;
+}
+
+.fade-in-right {
+opacity: 0;
+animation: fadeInRight 0.8s ease-out forwards;
+}
+
+.service-item {
+transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+transform: translateX(8px);
+}
+
+/* Staggered Animation Delays */
+.fade-in-up:nth-child(1) { animation-delay: 0.1s; }
+.fade-in-up:nth-child(2) { animation-delay: 0.3s; }
+.fade-in-up:nth-child(3) { animation-delay: 0.5s; }
+</style>
+</head>
+<body class="font-work text-gray-800 bg-white">
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-6 py-4">
+<nav class="flex items-center justify-between">
+<div class="font-playfair text-2xl font-semibold text-primary">
+Summer Breeze
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<a href="#home" class="nav-link text-gray-700 hover:text-primary font-medium">Home</a>
+<a href="#about" class="nav-link text-gray-700 hover:text-primary font-medium">About</a>
+<a href="#portfolio" class="nav-link text-gray-700 hover:text-primary font-medium">Portfolio</a>
+<a href="#services" class="nav-link text-gray-700 hover:text-primary font-medium">Services</a>
+<a href="#contact" class="nav-link text-gray-700 hover:text-primary font-medium">Contact</a>
+<a href="#journal" class="nav-link text-gray-700 hover:text-primary font-medium">Journal</a>
+</div>
+<button class="md:hidden w-8 h-8 flex items-center justify-center">
+<i class="ri-menu-line text-xl"></i>
+</button>
+</nav>
+</div>
+</header>
+<main>
+<section id="home" class="hero-bg min-h-screen flex items-center relative">
+<div class="overlay absolute inset-0"></div>
+<div class="relative z-10 w-full">
+<div class="max-w-7xl mx-auto px-6">
+<div class="max-w-3xl">
+<h1 class="font-playfair text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+Timeless Garden Design
+</h1>
+<p class="text-xl md:text-2xl text-white/90 mb-8 font-light leading-relaxed">
+Creating sophisticated landscapes that harmonize natural beauty with architectural elegance for discerning clients.
+</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="btn-primary text-white px-8 py-4 !rounded-button font-medium whitespace-nowrap">
+View Portfolio
+</button>
+<button class="border-2 border-white text-white px-8 py-4 !rounded-button font-medium hover:bg-white hover:text-primary transition-all duration-300 whitespace-nowrap">
+Learn More
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div class="fade-in-left">
+<h2 class="font-playfair text-4xl font-semibold text-gray-900 mb-6">
+Our Philosophy
+</h2>
+<p class="text-lg text-gray-600 leading-relaxed mb-6">
+At Summer Breeze, we believe that exceptional garden design emerges from the thoughtful integration of natural systems, architectural principles, and the unique character of each site. Our approach prioritizes sustainability, craftsmanship, and timeless aesthetic values.
+</p>
+<p class="text-lg text-gray-600 leading-relaxed">
+Every project begins with deep listening – to the land, to our clients' aspirations, and to the inherent possibilities that exist within each space. We create landscapes that feel both inevitable and surprising, rooted in place yet elevated beyond the ordinary.
+</p>
+</div>
+<div class="fade-in-right">
+<img src="https://readdy.ai/api/search-image?query=close%20up%20detail%20of%20native%20Australian%20plants%20with%20morning%20dew%20drops%20on%20leaves%20natural%20texture%20and%20organic%20forms%20sophisticated%20garden%20design%20elements%20architectural%20plantings%20with%20soft%20natural%20lighting%20premium%20landscape%20photography%20botanical%20details%20with%20artistic%20composition&width=600&height=500&seq=philosophy1&orientation=landscape"
+alt="Garden Philosophy"
+class="w-full rounded-lg object-cover object-top hover-lift">
+</div>
+</div>
+</div>
+</section>
+<div class="section-divider h-px"></div>
+<section id="portfolio" class="py-24 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-playfair text-4xl md:text-5xl font-semibold text-gray-900 mb-6">
+Selected Works
+</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto">
+A curated collection of residential gardens that showcase our commitment to design excellence and environmental stewardship.
+</p>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="project-item group cursor-pointer hover-lift">
+<div class="relative overflow-hidden rounded-lg aspect-[4/3]">
+<img src="https://readdy.ai/api/search-image?query=sophisticated%20contemporary%20residential%20garden%20with%20native%20Australian%20plants%20natural%20stone%20terracing%20modern%20outdoor%20furniture%20clean%20architectural%20lines%20lush%20green%20foliage%20premium%20landscape%20design%20elegant%20outdoor%20living%20space%20with%20subtle%20lighting%20and%20water%20features&width=800&height=600&seq=project1&orientation=landscape"
+alt="Toorak Residence"
+class="w-full h-full object-cover object-top">
+<div class="project-overlay absolute inset-0 flex items-end">
+<div class="p-8 text-white">
+<h3 class="font-playfair text-2xl font-semibold mb-2">Toorak Residence</h3>
+<p class="text-white/90">Contemporary terraced garden with native plantings</p>
+</div>
+</div>
+</div>
+</div>
+<div class="project-item group cursor-pointer hover-lift">
+<div class="relative overflow-hidden rounded-lg aspect-[4/3]">
+<img src="https://readdy.ai/api/search-image?query=minimalist%20modern%20courtyard%20garden%20design%20with%20geometric%20planting%20beds%20ornamental%20grasses%20sculptural%20trees%20clean%20concrete%20pathways%20sophisticated%20urban%20landscape%20architecture%20premium%20residential%20outdoor%20space%20with%20architectural%20elements%20and%20refined%20plant%20selection&width=800&height=600&seq=project2&orientation=landscape"
+alt="Brighton Courtyard"
+class="w-full h-full object-cover object-top">
+<div class="project-overlay absolute inset-0 flex items-end">
+<div class="p-8 text-white">
+<h3 class="font-playfair text-2xl font-semibold mb-2">Brighton Courtyard</h3>
+<p class="text-white/90">Minimalist urban sanctuary with sculptural elements</p>
+</div>
+</div>
+</div>
+</div>
+<div class="project-item group cursor-pointer hover-lift">
+<div class="relative overflow-hidden rounded-lg aspect-[4/3]">
+<img src="https://readdy.ai/api/search-image?query=coastal%20garden%20landscape%20design%20with%20drought%20tolerant%20plants%20natural%20stone%20walls%20seaside%20grasses%20modern%20pergola%20structure%20ocean%20views%20sustainable%20landscaping%20premium%20residential%20garden%20with%20windswept%20trees%20and%20coastal%20vegetation%20elegant%20outdoor%20entertaining%20area&width=800&height=600&seq=project3&orientation=landscape"
+alt="Mornington Peninsula Estate"
+class="w-full h-full object-cover object-top">
+<div class="project-overlay absolute inset-0 flex items-end">
+<div class="p-8 text-white">
+<h3 class="font-playfair text-2xl font-semibold mb-2">Mornington Peninsula Estate</h3>
+<p class="text-white/90">Coastal garden embracing natural wind patterns</p>
+</div>
+</div>
+</div>
+</div>
+<div class="project-item group cursor-pointer hover-lift">
+<div class="relative overflow-hidden rounded-lg aspect-[4/3]">
+<img src="https://readdy.ai/api/search-image?query=heritage%20garden%20restoration%20with%20formal%20parterre%20beds%20established%20mature%20trees%20classical%20garden%20design%20elements%20boxwood%20hedging%20gravel%20pathways%20traditional%20English%20garden%20style%20with%20modern%20interpretation%20premium%20landscape%20architecture%20elegant%20symmetrical%20layout&width=800&height=600&seq=project4&orientation=landscape"
+alt="Malvern Heritage Garden"
+class="w-full h-full object-cover object-top">
+<div class="project-overlay absolute inset-0 flex items-end">
+<div class="p-8 text-white">
+<h3 class="font-playfair text-2xl font-semibold mb-2">Malvern Heritage Garden</h3>
+<p class="text-white/90">Restoration of Victorian-era formal gardens</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mt-12">
+<button class="btn-primary text-white px-8 py-4 !rounded-button font-medium whitespace-nowrap">
+View All Projects
+</button>
+</div>
+</div>
+</section>
+<section id="services" class="py-24 bg-white">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-playfair text-4xl md:text-5xl font-semibold text-gray-900 mb-6 fade-in-up">
+Design Services
+</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto fade-in-up">
+Comprehensive landscape design solutions tailored to create extraordinary outdoor environments.
+</p>
+</div>
+
+<div class="grid lg:grid-cols-2 gap-16 items-center mb-20">
+<div class="fade-in-left">
+<img src="https://readdy.ai/api/search-image?query=landscape%20architect%20working%20on%20garden%20design%20drawings%20with%20plants%20and%20materials%20samples%20on%20wooden%20desk%20natural%20lighting%20professional%20workspace%20with%20architectural%20plans%20and%20botanical%20sketches%20sophisticated%20design%20process%20premium%20landscape%20architecture%20studio%20environment&width=600&height=500&seq=services1&orientation=landscape"
+alt="Design Process"
+class="w-full rounded-lg object-cover object-top hover-lift">
+</div>
+<div class="fade-in-right">
+<div class="space-y-8">
+<div class="service-item">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-plant-line text-xl text-primary"></i>
+</div>
+<div>
+<h3 class="font-playfair text-2xl font-semibold text-gray-900 mb-3">Garden Design</h3>
+<p class="text-gray-600 leading-relaxed">
+Complete landscape design from concept through construction documentation, integrating hardscape and planting design for cohesive outdoor environments.
+</p>
+</div>
+</div>
+</div>
+<div class="service-item">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-chat-3-line text-xl text-primary"></i>
+</div>
+<div>
+<h3 class="font-playfair text-2xl font-semibold text-gray-900 mb-3">Design Consultation</h3>
+<p class="text-gray-600 leading-relaxed">
+Expert guidance for existing gardens, plant selection advice, and strategic planning to maximize your landscape's potential and long-term sustainability.
+</p>
+</div>
+</div>
+</div>
+<div class="service-item">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+<i class="ri-leaf-line text-xl text-primary"></i>
+</div>
+<div>
+<h3 class="font-playfair text-2xl font-semibold text-gray-900 mb-3">Planting Design</h3>
+<p class="text-gray-600 leading-relaxed">
+Specialized plant selection and arrangement services focusing on seasonal interest, ecological value, and long-term garden maturation.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid md:grid-cols-3 gap-8">
+<div class="fade-in-up">
+<img src="https://readdy.ai/api/search-image?query=detailed%20close%20up%20of%20garden%20design%20sketches%20and%20technical%20drawings%20with%20pencils%20and%20measuring%20tools%20on%20drafting%20table%20architectural%20landscape%20plans%20with%20plant%20symbols%20and%20annotations%20professional%20design%20documentation%20premium%20quality&width=400&height=300&seq=process1&orientation=landscape"
+alt="Design Sketches"
+class="w-full h-48 rounded-lg object-cover object-top mb-4 hover-lift">
+<h4 class="font-playfair text-lg font-semibold text-gray-900 mb-2">Concept Development</h4>
+<p class="text-gray-600 text-sm">Initial sketches and site analysis to capture your vision</p>
+</div>
+<div class="fade-in-up" style="animation-delay: 0.2s;">
+<img src="https://readdy.ai/api/search-image?query=3D%20garden%20design%20visualization%20showing%20modern%20landscape%20with%20native%20plants%20stone%20pathways%20and%20outdoor%20furniture%20digital%20rendering%20of%20premium%20residential%20garden%20design%20architectural%20landscape%20visualization%20with%20realistic%20materials%20and%20lighting&width=400&height=300&seq=process2&orientation=landscape"
+alt="3D Visualization"
+class="w-full h-48 rounded-lg object-cover object-top mb-4 hover-lift">
+<h4 class="font-playfair text-lg font-semibold text-gray-900 mb-2">Design Visualization</h4>
+<p class="text-gray-600 text-sm">Detailed 3D renderings to preview your completed garden</p>
+</div>
+<div class="fade-in-up" style="animation-delay: 0.4s;">
+<img src="https://readdy.ai/api/search-image?query=construction%20team%20implementing%20garden%20design%20with%20professional%20landscapers%20installing%20native%20plants%20and%20stone%20work%20premium%20landscape%20construction%20process%20with%20quality%20materials%20and%20craftsmanship%20attention%20to%20detail%20in%20garden%20installation&width=400&height=300&seq=process3&orientation=landscape"
+alt="Construction Oversight"
+class="w-full h-48 rounded-lg object-cover object-top mb-4 hover-lift">
+<h4 class="font-playfair text-lg font-semibold text-gray-900 mb-2">Construction Oversight</h4>
+<p class="text-gray-600 text-sm">Detailed supervision ensuring quality implementation</p>
+</div>
+</div>
+</div>
+</section>
+<div class="section-divider h-px"></div>
+<section id="about" class="py-24 bg-gray-50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<img src="https://readdy.ai/api/search-image?query=professional%20portrait%20of%20elegant%20female%20landscape%20designer%20in%20natural%20garden%20setting%20wearing%20sophisticated%20casual%20attire%20confident%20and%20approachable%20expression%20surrounded%20by%20lush%20green%20plants%20and%20natural%20lighting%20premium%20lifestyle%20photography%20architectural%20garden%20background%20with%20modern%20design%20elements&width=600&height=700&seq=designer1&orientation=portrait"
+alt="Autumn Mitchell - Garden Designer"
+class="w-full rounded-lg object-cover object-top">
+</div>
+<div>
+<h2 class="font-playfair text-4xl md:text-5xl font-semibold text-gray-900 mb-6">
+Meet Autumn
+</h2>
+<p class="text-lg text-gray-600 leading-relaxed mb-6">
+With over fifteen years of experience in landscape architecture and horticulture, Autumn Mitchell founded Summer Breeze to create gardens that transcend seasonal trends and speak to the enduring relationship between people and place.
+</p>
+<p class="text-lg text-gray-600 leading-relaxed mb-6">
+Her design philosophy draws from extensive study of both classical garden traditions and contemporary ecological practices, resulting in landscapes that are both culturally resonant and environmentally responsive.
+</p>
+<p class="text-lg text-gray-600 leading-relaxed mb-8">
+Autumn holds a Master of Landscape Architecture from the University of Melbourne and is a registered member of the Australian Institute of Landscape Architects.
+</p>
+<button class="btn-primary text-white px-8 py-4 !rounded-button font-medium whitespace-nowrap">
+Read Full Bio
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-primary text-white relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<img src="https://readdy.ai/api/search-image?query=elegant%20garden%20pathway%20with%20natural%20stone%20steps%20leading%20through%20lush%20native%20plantings%20soft%20evening%20lighting%20creating%20warm%20ambiance%20premium%20residential%20landscape%20design%20with%20architectural%20elements%20and%20mature%20trees%20sophisticated%20outdoor%20environment&width=1920&height=600&seq=cta-bg&orientation=landscape"
+alt="Garden Background"
+class="w-full h-full object-cover object-center">
+</div>
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+<h2 class="font-playfair text-4xl md:text-5xl font-semibold mb-6 fade-in-up">
+Ready to Transform Your Outdoor Space?
+</h2>
+<p class="text-xl text-white/90 mb-8 leading-relaxed fade-in-up">
+Let's discuss how thoughtful design can create a garden that reflects your vision and enhances your daily life for years to come.
+</p>
+<button class="bg-white text-primary px-8 py-4 !rounded-button font-medium hover:bg-gray-100 transition-colors duration-300 whitespace-nowrap fade-in-up">
+Start Your Project
+</button>
+</div>
+</section>
+</main>
+<footer class="bg-gray-900 text-white py-16">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid md:grid-cols-4 gap-12">
+<div class="md:col-span-2">
+<div class="font-playfair text-2xl font-semibold mb-4">Summer Breeze</div>
+<p class="text-gray-400 leading-relaxed mb-6">
+Creating timeless landscapes that harmonize natural beauty with architectural elegance for discerning clients across Melbourne and regional Victoria.
+</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-300">
+<i class="ri-instagram-line text-lg"></i>
+</a>
+<a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-300">
+<i class="ri-pinterest-line text-lg"></i>
+</a>
+<a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-300">
+<i class="ri-linkedin-line text-lg"></i>
+</a>
+</div>
+</div>
+<div>
+<h3 class="font-semibold text-lg mb-4">Services</h3>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#" class="hover:text-white transition-colors duration-300">Garden Design</a></li>
+<li><a href="#" class="hover:text-white transition-colors duration-300">Consultation</a></li>
+<li><a href="#" class="hover:text-white transition-colors duration-300">Planting Design</a></li>
+<li><a href="#" class="hover:text-white transition-colors duration-300">Project Management</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-semibold text-lg mb-4">Contact</h3>
+<ul class="space-y-2 text-gray-400">
+<li>Melbourne, Victoria</li>
+<li>hello@summerbreezegardens.com.au</li>
+<li>+61 3 9xxx xxxx</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm">
+© 2024 Summer Breeze Garden Design. All rights reserved.
+</p>
+<div class="flex space-x-6 mt-4 md:mt-0">
+<a href="#" class="text-gray-400 hover:text-white text-sm transition-colors duration-300">Privacy Policy</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition-colors duration-300">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<script id="navigation-scroll">
+document.addEventListener('DOMContentLoaded', function() {
+const header = document.querySelector('header');
+let lastScrollY = window.scrollY;
+window.addEventListener('scroll', () => {
+const currentScrollY = window.scrollY;
+if (currentScrollY > 100) {
+header.classList.add('bg-white/98');
+header.classList.remove('bg-white/95');
+} else {
+header.classList.add('bg-white/95');
+header.classList.remove('bg-white/98');
+}
+lastScrollY = currentScrollY;
+});
+});
+</script>
+<script id="smooth-scrolling">
+document.addEventListener('DOMContentLoaded', function() {
+const navLinks = document.querySelectorAll('a[href^="#"]');
+navLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+const targetSection = document.querySelector(targetId);
+if (targetSection) {
+const headerHeight = document.querySelector('header').offsetHeight;
+const targetPosition = targetSection.offsetTop - headerHeight;
+window.scrollTo({
+top: targetPosition,
+behavior: 'smooth'
+});
+}
+});
+});
+});
+</script>
+<script id="mobile-menu">
+document.addEventListener('DOMContentLoaded', function() {
+const mobileMenuButton = document.querySelector('.md\\:hidden button');
+const navMenu = document.querySelector('.hidden.md\\:flex');
+if (mobileMenuButton && navMenu) {
+mobileMenuButton.addEventListener('click', function() {
+navMenu.classList.toggle('hidden');
+navMenu.classList.toggle('flex');
+navMenu.classList.toggle('flex-col');
+navMenu.classList.toggle('absolute');
+navMenu.classList.toggle('top-full');
+navMenu.classList.toggle('left-0');
+navMenu.classList.toggle('right-0');
+navMenu.classList.toggle('bg-white');
+navMenu.classList.toggle('border-t');
+navMenu.classList.toggle('border-gray-100');
+navMenu.classList.toggle('py-4');
+navMenu.classList.toggle('px-6');
+navMenu.classList.toggle('space-y-4');
+navMenu.classList.toggle('space-x-8');
+});
+}
+});
+</script>
+
+<script id="scroll-animations">
+document.addEventListener('DOMContentLoaded', function() {
+const observerOptions = {
+threshold: 0.1,
+rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.style.animationPlayState = 'running';
+observer.unobserve(entry.target);
+}
+});
+}, observerOptions);
+
+const animatedElements = document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right');
+animatedElements.forEach(el => {
+el.style.animationPlayState = 'paused';
+observer.observe(el);
+});
+});
+</script>
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = 'NPP_ShFqZn7-7LQNuFaN5w';
+    window.host = 'readdy.ai';
+</script>
+</body>
+</html>
